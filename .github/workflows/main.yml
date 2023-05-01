@@ -42,8 +42,6 @@ jobs:
       - name: Push to Docker Hub
         uses: docker/build-push-action@v2
         with:
-          context: .
-          file: Dockerfile
           push: true
           tags: nbaishev/infra_actions
   
