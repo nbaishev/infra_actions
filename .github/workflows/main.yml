@@ -54,7 +54,7 @@ jobs:
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USER }}
-        key: ${{ sercets.SSH_KEY}}
+        key: ${{ secrets.SSH_KEY}}
         script: |
           sudo docker pull
           sudo docker stop ${sudo docker ps -a -q}
