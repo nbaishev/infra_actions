@@ -45,7 +45,7 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          tags: nbaishev/infra_actions:latest
+          tags: nbaishev/infra_actions
   
   deploy:
     runs-on: ubuntu-latest
